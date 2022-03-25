@@ -1,0 +1,84 @@
+#header {
+    position:fixed;
+    display: flex;
+    width: 100%;
+    padding-left: 1em;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#webName {
+    font-size: 30px;
+    padding: 0.25em;
+}
+
+#navList {
+    height: auto;
+    padding-right: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.linkItem {
+    height: 4em;
+    padding: 0 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.linkItem:hover {
+    color: black;
+    background-color: #b5a642;
+}
+
+#donate {
+    color: black;
+    background-color: #b5a642;
+}
+
+#donate:hover {
+    color: black;
+    background-color: white;
+}
+
+#footer {
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-top: #b5a642 2px solid;
+    transition: 0.5s;
+}
+
+#footer:hover {
+    color:#b5a642;
+}
+
+#contactUs {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#contactUs img {
+    height: 2em;
+    width: 2em;
+    padding: 0 1em;
+}
+
+.padRemove {
+    padding: 0 !important;
+}
+
+#footer p {
+    margin-top: 0.5em;
+}

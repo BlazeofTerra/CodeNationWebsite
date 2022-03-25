@@ -1,0 +1,143 @@
+* {
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.bRGrean {
+    background-color: #004225;
+    color: white;
+}
+
+.brassBg {
+    background-color: #b5a642;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.banner {
+    padding-top: 64px;
+    border-bottom: 2px #004225 solid;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.banner:hover {
+    border-bottom: 2px #b5a642 solid;
+}
+
+
+.imgTextHolder {
+    display: flex;
+    width: 60em;
+    max-height: 25em;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s;
+    border: white 2px solid;
+    border-radius: 3px;
+}
+
+.imgTextHolder img {
+    max-height: 350px;
+    border-radius: 3px;
+}
+
+.contentHolder {
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.textHolder {
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgTextHolder:hover {
+    background-color: #004225;
+    color: white;
+    border: #b5a642 2px solid;
+}
+
+.pageLink {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 1em;
+    color: black;
+    transition: 0.5s;
+    border-radius: 3px;
+    background-color: #b5a642;
+}
+
+.pageLink:hover {
+    background-color: white;
+}
+
+#engineHolder {
+    width: 54em !important;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 2em;
+    transition: 0.5s;
+}
+
+.engine {
+    display: flex;
+    width: 25em;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s;
+    background-color: #004225;
+    border: #b5a642 2px solid;
+    border-radius: 3px;
+    color: white;
+    margin-top: 1em;
+}
+
+.engine img{
+    max-width: 25em;
+    border-radius: 3px;
+}
+
+.engineText {
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#donateBtn {
+    max-width: 4em;
+    margin: 0 auto;
+}
